@@ -1,5 +1,7 @@
 # Apuntes
 
+## Sprint 1 - levantar app de python con git
+
 - Crear repositorio de Github
 - Hacer un commit del readme
 - Proteger el branch main contra escritura (en settings) (primero hay que pushear un commit)
