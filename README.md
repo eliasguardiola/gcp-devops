@@ -1,1 +1,4 @@
-# Este es un projecto de GCP Devops
+# Docker flask application
+
+- This application is written in python
+- It shall be deployed on GKE
