@@ -7,3 +7,5 @@
 
 ## Usar otros branches para OR
 `git checkout -b "feature/task-02"`
+`git push origin feature/task-02`
+
