@@ -9,3 +9,11 @@
 `git checkout -b "feature/task-02"`
 `git push origin feature/task-02`
 
+## Crear imagen de docker basada en Dockerfile
+`docker build --tag python-docker-image .`
+
+## Hacer rebuild de la imagen
+`docker build --tag python-docker-image .`
+
+## Levantar imagen
+`docker run -p 5001:5000 python-docker-image`
