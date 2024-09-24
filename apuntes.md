@@ -40,3 +40,12 @@ Nos va a servir para compilar las imagenes de docker y luego desplegarlas a kube
 - En el eventro "Push to branch"
 - En Configuration poner "Cloud Build configuration file"
 - Crear yaml de cloudbuild.yaml
+- Hacer PR a main
+- Despues del merge ya se habra corrido el build
+- Revisar si corrio bien
+- Revisar buscando "Artifact Registry" para ver si se subieron las imagenes
+
+## GKE
+- Crear namespace `kubectl create namespace gcp-devops-prod`
+- Crear gke.yaml
+- Merge a main
