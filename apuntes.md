@@ -19,3 +19,24 @@
 
 ## Levantar imagen
 `docker run -p 5001:5000 python-docker-image`
+
+## Budget
+Definir alarmas de budget
+
+## Activar GKE
+Hacerlo cluster con configuracion manual
+
+## Codebuild
+Nos va a servir para compilar las imagenes de docker y luego desplegarlas a kubernetes
+
+## Codebuild
+- Buscar  "Cloud Build" y activarla
+- Buscar de nuevo "Cloud Build" e ir al dashboard
+- Ir a triggers y "Connect Repository"
+- Nos va a pedir installar Google Cloud Build
+- Loguearnos en Github y darle permisos solo a nuestro repo devops
+- No hacer trigger por ahora
+- Crear trigger con el repositorio
+- En el eventro "Push to branch"
+- En Configuration poner "Cloud Build configuration file"
+- Crear yaml de cloudbuild.yaml
