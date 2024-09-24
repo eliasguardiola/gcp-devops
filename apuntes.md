@@ -51,3 +51,7 @@ Nos va a servir para compilar las imagenes de docker y luego desplegarlas a kube
 - Editar `cloudbuild.yaml`con tareas para compilar imagen, pushear y desplegar en GKE
 - Merge a main
 - Revisar que se desplego el deployment correctamente
+- Crear servicio para exponer puerto del pod, en el `gke.yaml`
+- Crear otro branch "development"
+- Editar cloudbuild.yaml para que el build, push de las imagenes sean para `gcr.io/$PROJECT_ID/gcpdevops-dev` y el namespace para `gcp-devops-dev`
+- Tambien editar el `gke.yaml` para que apunte a la imagen dev y namespace dev
