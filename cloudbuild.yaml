@@ -15,4 +15,4 @@ steps:
   - --cluster=gcp-devops-project
   - --namespace=gcp-devops-prod
 options:
-  logging: CLOUD_LOGGING_ONLY
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
