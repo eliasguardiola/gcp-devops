@@ -18,5 +18,5 @@ spec:
         ports:
         - containerPort: 5000
         env:
-          -name: PORT
-           value: "5000"
+          - name: PORT
+            value: "5000"
