@@ -47,5 +47,7 @@ Nos va a servir para compilar las imagenes de docker y luego desplegarlas a kube
 
 ## GKE
 - Crear namespace `kubectl create namespace gcp-devops-prod`
-- Crear gke.yaml
+- Crear `gke.yaml` con el deployment para K8S
+- Editar `cloudbuild.yaml`con tareas para compilar imagen, pushear y desplegar en GKE
 - Merge a main
+- Revisar que se desplego el deployment correctamente
